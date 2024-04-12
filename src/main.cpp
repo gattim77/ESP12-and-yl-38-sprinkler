@@ -3,8 +3,8 @@
 const int sensorPowerPin = 13;
 const int analogPin = A0;  // Analog input pin
 const int digitalPin = 14; // Digital input pin
-const int redPin = 5; //red pin
-const int yellowPin = 4; //yellow pin
+const int redPin = 4; //red pin
+const int yellowPin = 5; //yellow pin
 const int greenPin = 16; //green pin
 const int pumpPin = 12; //to activate the pump, GPIO12/D6
 
@@ -14,6 +14,7 @@ void setup() {
   pinMode(redPin, OUTPUT);
   pinMode(yellowPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
+
 
 
 }
